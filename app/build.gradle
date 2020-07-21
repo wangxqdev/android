@@ -3,7 +3,7 @@ apply plugin: 'eclipse'
 
 eclipse {
     classpath {
-        downloadSources=true
+        downloadSources = true
     }
 }
 
