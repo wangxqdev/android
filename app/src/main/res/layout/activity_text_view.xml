@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10dp"
+              android:orientation="vertical"
+              tools:context=".view.TextViewActivity">
+
+    <!--文字大小、颜色-->
+    <TextView android:id="@+id/tv_1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"
+              android:text="@string/tv_test"
+              android:textSize="24sp"
+              android:textColor="#f00"/>
+
+    <!--显示不下使用...-->
+    <TextView android:id="@+id/tv_2"
+              android:layout_width="100dp"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"
+              android:maxLines="1"
+              android:ellipsize="end"
+              android:text="@string/tv_test"
+              android:textSize="24sp"/>
+
+    <!--文字+icon-->
+    <TextView android:id="@+id/tv_3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"
+              android:drawableEnd="@drawable/show_more"
+              android:text="@string/tv_test2"
+              android:textSize="24sp"/>
+
+    <!--中划线-->
+    <TextView android:id="@+id/tv_4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"
+              android:text="@string/tv_test"
+              android:textSize="24sp"/>
+
+    <!--下划线-->
+    <TextView android:id="@+id/tv_5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"
+              android:text="@string/tv_test"
+              android:textSize="24sp"/>
+
+    <!--跑马灯-->
+    <TextView android:id="@+id/tv_6"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:singleLine="true"
+              android:ellipsize="marquee"
+              android:marqueeRepeatLimit="marquee_forever"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:text="@string/tv_test3"
+              android:textSize="24sp"/>
+
+</LinearLayout>
