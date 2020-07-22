@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">Hello World</string>
-
+    <!--TextView-->
     <string name="btn_textView">TextView</string>
     <string name="tv_test">社会我泉哥</string>
     <string name="tv_test2">筛选</string>
     <string name="tv_test3">社会我泉哥社会我泉哥社会我泉哥社会我泉哥社会我泉哥社会我泉哥社会我泉哥社会我泉哥</string>
+    <!--Button-->
+    <string name="btn_button">Button</string>
+    <string name="btn_test">按 钮</string>
 </resources>

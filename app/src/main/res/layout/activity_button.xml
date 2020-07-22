@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                tools:context=".view.ButtonActivity">
+
+    <!--文字大小、颜色-->
+    <Button android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f00"
+            android:text="@string/btn_test"
+            android:textSize="16sp"
+            android:textColor="#fff"/>
+
+    <!--自定义背景形状-->
+    <Button android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_btn2"
+            android:text="@string/btn_test"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_below="@id/btn1"/>
+
+    <!--自定义按压效果-->
+    <Button android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_btn3"
+            android:text="@string/btn_test"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_below="@id/btn2"/>
+
+    <!--点击事件-->
+    <Button android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_btn4"
+            android:text="@string/btn_test"
+            android:textSize="16sp"
+            android:textColor="#f7bf5f"
+            android:layout_below="@id/btn3"
+            android:onClick="showToast"/>
+
+</RelativeLayout>
