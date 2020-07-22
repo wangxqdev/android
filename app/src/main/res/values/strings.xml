@@ -17,4 +17,10 @@
     <string name="btn_radioButton">RadioButton</string>
     <string name="rb_man">男</string>
     <string name="rb_woman">女</string>
+    <!--CheckBox-->
+    <string name="btn_checkBox">CheckBox</string>
+    <string name="tv_skill">移动端开发技能:</string>
+    <string name="cb_android">Android</string>
+    <string name="cb_ios">IOS</string>
+    <string name="cb_h5">H5</string>
 </resources>

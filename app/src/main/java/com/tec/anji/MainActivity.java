@@ -5,10 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
-import com.tec.anji.view.ButtonActivity;
-import com.tec.anji.view.EditTextActivity;
-import com.tec.anji.view.RadioButtonActivity;
-import com.tec.anji.view.TextViewActivity;
+import com.tec.anji.view.*;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
         // RadioButton
         Button btnRadioButton = findViewById(R.id.btn_radioButton);
         btnRadioButton.setOnClickListener(view -> startActivity(RadioButtonActivity.class));
+        // CheckBox
+        Button btnCheckBox = findViewById(R.id.btn_checkBox);
+        btnCheckBox.setOnClickListener(view -> startActivity(CheckBoxActivity.class));
     }
 
     private void startActivity(Class<? extends Context> cls) {

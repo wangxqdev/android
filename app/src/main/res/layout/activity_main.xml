@@ -31,4 +31,10 @@
             android:text="@string/btn_radioButton"
             android:textAllCaps="false"/>
 
+    <Button android:id="@+id/btn_checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_checkBox"
+            android:textAllCaps="false"/>
+
 </LinearLayout>
