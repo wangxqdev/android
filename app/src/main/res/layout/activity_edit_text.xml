@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                tools:context=".view.EditTextActivity">
+
+    <!--用户名-->
+    <EditText android:id="@+id/et_username"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingStart="5dp"
+              android:paddingEnd="5dp"
+              android:layout_marginTop="50dp"
+              android:drawableStart="@drawable/user"
+              android:drawablePadding="5dp"
+              android:textSize="16sp"
+              android:textColor="#000"
+              android:hint="@string/et_username"/>
+
+    <!--密码-->
+    <EditText android:id="@+id/et_password"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingStart="5dp"
+              android:paddingEnd="5dp"
+              android:layout_marginTop="15dp"
+              android:drawableStart="@drawable/lock"
+              android:drawablePadding="5dp"
+              android:textSize="16sp"
+              android:textColor="#000"
+              android:hint="@string/et_password"
+              android:inputType="textPassword"
+              android:layout_below="@id/et_username"/>
+
+    <!--登录-->
+    <Button android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_btn3"
+            android:text="@string/btn_login"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:layout_below="@id/et_password"/>
+
+</RelativeLayout>

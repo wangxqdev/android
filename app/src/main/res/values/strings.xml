@@ -7,5 +7,10 @@
     <string name="tv_test3">社会我泉哥社会我泉哥社会我泉哥社会我泉哥社会我泉哥社会我泉哥社会我泉哥社会我泉哥</string>
     <!--Button-->
     <string name="btn_button">Button</string>
-    <string name="btn_test">按 钮</string>
+    <string name="btn_test">按  钮</string>
+    <!--EditText-->
+    <string name="btn_editText">EditText</string>
+    <string name="et_username">用户名</string>
+    <string name="et_password">密  码</string>
+    <string name="btn_login">登  录</string>
 </resources>

@@ -7,14 +7,22 @@
               android:padding="10dp"
               tools:context=".MainActivity">
 
-    <Button android:id="@+id/btn_text_view"
+    <Button android:id="@+id/btn_textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_textView"/>
+            android:text="@string/btn_textView"
+            android:textAllCaps="false"/>
 
     <Button android:id="@+id/btn_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_button"/>
+            android:text="@string/btn_button"
+            android:textAllCaps="false"/>
+
+    <Button android:id="@+id/btn_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_editText"
+            android:textAllCaps="false"/>
 
 </LinearLayout>

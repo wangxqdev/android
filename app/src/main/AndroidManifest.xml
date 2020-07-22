@@ -22,6 +22,7 @@
         <activity android:name=".layout.RelativeLayoutActivity"/>
         <activity android:name=".view.TextViewActivity"/>
         <activity android:name=".view.ButtonActivity"/>
+        <activity android:name=".view.EditTextActivity"/>
     </application>
 
 </manifest>
