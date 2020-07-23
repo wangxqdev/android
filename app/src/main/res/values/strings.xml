@@ -23,4 +23,6 @@
     <string name="cb_android">Android</string>
     <string name="cb_ios">IOS</string>
     <string name="cb_h5">H5</string>
+    <!--ImageView-->
+    <string name="btn_imageView">ImageView</string>
 </resources>

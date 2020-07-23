@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
         // CheckBox
         Button btnCheckBox = findViewById(R.id.btn_checkBox);
         btnCheckBox.setOnClickListener(view -> startActivity(CheckBoxActivity.class));
+        // ImageView
+        Button btnImageView = findViewById(R.id.btn_imageView);
+        btnImageView.setOnClickListener(view -> startActivity(ImageViewActivity.class));
     }
 
     private void startActivity(Class<? extends Context> cls) {

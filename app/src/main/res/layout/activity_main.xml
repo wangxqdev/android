@@ -37,4 +37,10 @@
             android:text="@string/btn_checkBox"
             android:textAllCaps="false"/>
 
+    <Button android:id="@+id/btn_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_imageView"
+            android:textAllCaps="false"/>
+
 </LinearLayout>
