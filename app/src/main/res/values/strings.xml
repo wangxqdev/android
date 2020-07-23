@@ -25,4 +25,9 @@
     <string name="cb_h5">H5</string>
     <!--ImageView-->
     <string name="btn_imageView">ImageView</string>
+    <!--ListView-->
+    <string name="btn_listView">ListView</string>
+    <string name="lv_title">这是标题</string>
+    <string name="lv_time">这是时间</string>
+    <string name="lv_content">这是内容</string>
 </resources>

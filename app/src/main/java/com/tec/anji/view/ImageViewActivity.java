@@ -12,7 +12,8 @@ public class ImageViewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_view);
-        ImageView iv1 = findViewById(R.id.iv_1);
-        Glide.with(this).load("https://logo.baidu.com/images/logo.png").into(iv1);
+
+        ImageView imageView = findViewById(R.id.iv_1);
+        Glide.with(this).load("https://logo.baidu.com/images/logo.png").into(imageView);
     }
 }
