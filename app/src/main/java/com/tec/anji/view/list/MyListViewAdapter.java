@@ -10,13 +10,13 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.tec.anji.R;
 
-public class MyListAdapter extends BaseAdapter {
+public class MyListViewAdapter extends BaseAdapter {
 
     private Context context;
 
     private LayoutInflater layoutInflater;
 
-    public MyListAdapter(Context context) {
+    public MyListViewAdapter(Context context) {
         this.context = context;
         this.layoutInflater = LayoutInflater.from(context);
     }
@@ -40,7 +40,7 @@ public class MyListAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder holder;
         if (null == convertView) {
-            convertView = layoutInflater.inflate(R.layout.list_view_item, parent, false);
+            convertView = layoutInflater.inflate(R.layout.layout_list_item, parent, false);
             holder = new ViewHolder();
             holder.ivLeft = convertView.findViewById(R.id.iv_left);
             holder.tvTitle = convertView.findViewById(R.id.tv_title);

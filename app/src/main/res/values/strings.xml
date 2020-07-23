@@ -30,4 +30,7 @@
     <string name="lv_title">这是标题</string>
     <string name="lv_time">这是时间</string>
     <string name="lv_content">这是内容</string>
+    <!--GridView-->
+    <string name="btn_gridView">GridView</string>
+    <string name="tv_flower">花</string>
 </resources>

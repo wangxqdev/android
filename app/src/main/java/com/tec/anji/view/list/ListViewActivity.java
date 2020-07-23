@@ -14,7 +14,7 @@ public class ListViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_list_view);
 
         ListView listView = findViewById(R.id.lv_1);
-        listView.setAdapter(new MyListAdapter(this));
+        listView.setAdapter(new MyListViewAdapter(this));
         // 事件监听
         listView.setOnItemLongClickListener((parent, view, position, id) -> {
             Toast.makeText(ListViewActivity.this, "位置: " + position, Toast.LENGTH_SHORT).show();

@@ -32,6 +32,7 @@
         <activity android:name=".view.CheckBoxActivity"/>
         <activity android:name=".view.ImageViewActivity"/>
         <activity android:name=".view.list.ListViewActivity"/>
+        <activity android:name=".view.grid.GridViewActivity"/>
     </application>
 
 </manifest>

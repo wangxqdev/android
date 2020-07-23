@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import com.tec.anji.view.*;
+import com.tec.anji.view.grid.GridViewActivity;
 import com.tec.anji.view.list.ListViewActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
         // ListView
         Button btnListView = findViewById(R.id.btn_listView);
         btnListView.setOnClickListener(view -> startActivity(ListViewActivity.class));
+        // GridView
+        Button btnGridView = findViewById(R.id.btn_gridView);
+        btnGridView.setOnClickListener(view -> startActivity(GridViewActivity.class));
     }
 
     private void startActivity(Class<? extends Context> cls) {
