@@ -59,6 +59,12 @@
                 android:text="@string/btn_gridView"
                 android:textAllCaps="false"/>
 
+        <Button android:id="@+id/btn_linearRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_linearRecyclerView"
+                android:textAllCaps="false"/>
+
     </LinearLayout>
 
 </ScrollView>

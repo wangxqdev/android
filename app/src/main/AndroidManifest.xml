@@ -33,6 +33,7 @@
         <activity android:name=".view.ImageViewActivity"/>
         <activity android:name=".view.list.ListViewActivity"/>
         <activity android:name=".view.grid.GridViewActivity"/>
+        <activity android:name=".view.recycler.LinearRecyclerViewActivity"/>
     </application>
 
 </manifest>

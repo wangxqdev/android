@@ -3,11 +3,12 @@ package com.tec.anji;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
+import androidx.appcompat.app.AppCompatActivity;
 import com.tec.anji.view.*;
 import com.tec.anji.view.grid.GridViewActivity;
 import com.tec.anji.view.list.ListViewActivity;
+import com.tec.anji.view.recycler.LinearRecyclerViewActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
         // GridView
         Button btnGridView = findViewById(R.id.btn_gridView);
         btnGridView.setOnClickListener(view -> startActivity(GridViewActivity.class));
+        // LinearRecyclerView
+        Button btnLinearRecyclerView = findViewById(R.id.btn_linearRecyclerView);
+        btnLinearRecyclerView.setOnClickListener(view -> startActivity(LinearRecyclerViewActivity.class));
     }
 
     private void startActivity(Class<? extends Context> cls) {

@@ -1,9 +1,9 @@
 package com.tec.anji.view.list;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 import android.widget.Toast;
+import androidx.appcompat.app.AppCompatActivity;
 import com.tec.anji.R;
 
 public class ListViewActivity extends AppCompatActivity {

@@ -2,8 +2,8 @@ package com.tec.anji.view;
 
 import android.graphics.Paint;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
 import com.tec.anji.R;
 
 public class TextViewActivity extends AppCompatActivity {

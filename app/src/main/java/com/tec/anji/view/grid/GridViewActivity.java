@@ -1,8 +1,8 @@
 package com.tec.anji.view.grid;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.GridView;
+import androidx.appcompat.app.AppCompatActivity;
 import com.tec.anji.R;
 
 public class GridViewActivity extends AppCompatActivity {
