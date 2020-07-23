@@ -1,58 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical"
-              android:padding="10dp"
-              tools:context=".MainActivity">
-
-    <Button android:id="@+id/btn_textView"
+<!--ScrollView只能有一个直接子元素-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_textView"
-            android:textAllCaps="false"/>
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
 
-    <Button android:id="@+id/btn_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_button"
-            android:textAllCaps="false"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:padding="10dp">
 
-    <Button android:id="@+id/btn_editText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_editText"
-            android:textAllCaps="false"/>
+        <Button android:id="@+id/btn_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_textView"
+                android:textAllCaps="false"/>
 
-    <Button android:id="@+id/btn_radioButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_radioButton"
-            android:textAllCaps="false"/>
+        <Button android:id="@+id/btn_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_button"
+                android:textAllCaps="false"/>
 
-    <Button android:id="@+id/btn_checkBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_checkBox"
-            android:textAllCaps="false"/>
+        <Button android:id="@+id/btn_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_editText"
+                android:textAllCaps="false"/>
 
-    <Button android:id="@+id/btn_imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_imageView"
-            android:textAllCaps="false"/>
+        <Button android:id="@+id/btn_radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_radioButton"
+                android:textAllCaps="false"/>
 
-    <Button android:id="@+id/btn_listView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_listView"
-            android:textAllCaps="false"/>
+        <Button android:id="@+id/btn_checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_checkBox"
+                android:textAllCaps="false"/>
 
-    <Button android:id="@+id/btn_gridView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_gridView"
-            android:textAllCaps="false"/>
+        <Button android:id="@+id/btn_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_imageView"
+                android:textAllCaps="false"/>
 
-</LinearLayout>
+        <Button android:id="@+id/btn_listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_listView"
+                android:textAllCaps="false"/>
+
+        <Button android:id="@+id/btn_gridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_gridView"
+                android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</ScrollView>
