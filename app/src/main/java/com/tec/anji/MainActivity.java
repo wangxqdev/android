@@ -58,6 +58,9 @@ public class MainActivity extends AppCompatActivity {
         // WebView
         Button btnWebView = findViewById(R.id.btn_webView);
         btnWebView.setOnClickListener(view -> startActivity(WebViewActivity.class));
+        // Toast
+        Button btnToast = findViewById(R.id.btn_toast);
+        btnToast.setOnClickListener(view -> startActivity(ToastActivity.class));
     }
 
     private void startActivity(Class<? extends Context> cls) {

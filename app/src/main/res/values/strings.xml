@@ -40,4 +40,9 @@
     <string name="btn_staggeredRecyclerView">StaggeredRecyclerView</string>
     <!--WebView-->
     <string name="btn_webView">WebView</string>
+    <!--Toast-->
+    <string name="btn_toast">Toast</string>
+    <string name="btn_toast_1">默认</string>
+    <string name="btn_toast_2">改变位置</string>
+    <string name="btn_toast_3">自定义</string>
 </resources>
