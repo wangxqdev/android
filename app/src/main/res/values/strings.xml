@@ -36,4 +36,5 @@
     <!--RecyclerView-->
     <string name="btn_verticalRecyclerView">VerticalRecyclerView</string>
     <string name="btn_horizontalRecyclerView">HorizontalRecyclerView</string>
+    <string name="btn_gridRecyclerView">GridRecyclerView</string>
 </resources>

@@ -71,6 +71,12 @@
                 android:text="@string/btn_horizontalRecyclerView"
                 android:textAllCaps="false"/>
 
+        <Button android:id="@+id/btn_gridRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_gridRecyclerView"
+                android:textAllCaps="false"/>
+
     </LinearLayout>
 
 </ScrollView>
