@@ -10,6 +10,7 @@ import com.tec.anji.view.grid.GridViewActivity;
 import com.tec.anji.view.list.ListViewActivity;
 import com.tec.anji.view.recycler.GridRecyclerViewActivity;
 import com.tec.anji.view.recycler.HorizontalRecyclerViewActivity;
+import com.tec.anji.view.recycler.StaggeredRecyclerViewActivity;
 import com.tec.anji.view.recycler.VerticalRecyclerViewActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -51,6 +52,9 @@ public class MainActivity extends AppCompatActivity {
         // GridRecyclerView
         Button btnGridRecyclerView = findViewById(R.id.btn_gridRecyclerView);
         btnGridRecyclerView.setOnClickListener(view -> startActivity(GridRecyclerViewActivity.class));
+        // StaggeredRecyclerView
+        Button btnStaggeredRecyclerView = findViewById(R.id.btn_staggeredRecyclerView);
+        btnStaggeredRecyclerView.setOnClickListener(view -> startActivity(StaggeredRecyclerViewActivity.class));
     }
 
     private void startActivity(Class<? extends Context> cls) {
