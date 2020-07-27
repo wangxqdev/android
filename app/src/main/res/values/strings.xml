@@ -34,5 +34,5 @@
     <string name="btn_gridView">GridView</string>
     <string name="tv_flower">花</string>
     <!--RecyclerView-->
-    <string name="btn_linearRecyclerView">LinearRecyclerView</string>
+    <string name="btn_verticalRecyclerView">VerticalRecyclerView</string>
 </resources>

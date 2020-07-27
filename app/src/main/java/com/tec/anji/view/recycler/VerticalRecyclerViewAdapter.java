@@ -9,13 +9,13 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.tec.anji.R;
 
-public class LinearRecyclerViewAdapter extends RecyclerView.Adapter<LinearRecyclerViewAdapter.ViewHolder> {
+public class VerticalRecyclerViewAdapter extends RecyclerView.Adapter<VerticalRecyclerViewAdapter.ViewHolder> {
 
     private Context context;
 
     private OnClickListener onClickListener;
 
-    LinearRecyclerViewAdapter(Context context, OnClickListener onClickListener) {
+    VerticalRecyclerViewAdapter(Context context, OnClickListener onClickListener) {
         this.context = context;
         this.onClickListener = onClickListener;
     }
@@ -23,7 +23,7 @@ public class LinearRecyclerViewAdapter extends RecyclerView.Adapter<LinearRecycl
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        return new ViewHolder(LayoutInflater.from(context).inflate(R.layout.layout_linear_recycler_item, viewGroup, false));
+        return new ViewHolder(LayoutInflater.from(context).inflate(R.layout.layout_vertical_recycler_item, viewGroup, false));
     }
 
     @Override

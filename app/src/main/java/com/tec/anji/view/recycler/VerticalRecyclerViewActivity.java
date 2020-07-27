@@ -10,16 +10,16 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import com.tec.anji.R;
 
-public class LinearRecyclerViewActivity extends AppCompatActivity {
+public class VerticalRecyclerViewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_linear_recycler_view);
+        setContentView(R.layout.activity_vertical_recycler_view);
 
         RecyclerView view = findViewById(R.id.rv_1);
         view.setLayoutManager(new LinearLayoutManager(this));
-        view.setAdapter(new LinearRecyclerViewAdapter(this, i -> Toast.makeText(this, "点击位置 = " + i, Toast.LENGTH_SHORT).show()));
+        view.setAdapter(new VerticalRecyclerViewAdapter(this, i -> Toast.makeText(this, "点击位置 = " + i, Toast.LENGTH_SHORT).show()));
         view.addItemDecoration(new MyItemDecoration());
     }
 
@@ -28,7 +28,7 @@ public class LinearRecyclerViewActivity extends AppCompatActivity {
         @Override
         public void getItemOffsets(@NonNull Rect outRect, @NonNull View view, @NonNull RecyclerView parent, @NonNull RecyclerView.State state) {
             super.getItemOffsets(outRect, view, parent, state);
-            outRect.set(0, 0, 0, getResources().getDimensionPixelOffset(R.dimen.dividerHeight));
+            outRect.set(0, 0, 0, getResources().getDimensionPixelOffset(R.dimen.divider_height));
         }
     }
 }

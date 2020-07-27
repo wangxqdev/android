@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.tec.anji.view.*;
 import com.tec.anji.view.grid.GridViewActivity;
 import com.tec.anji.view.list.ListViewActivity;
-import com.tec.anji.view.recycler.LinearRecyclerViewActivity;
+import com.tec.anji.view.recycler.VerticalRecyclerViewActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,9 +40,9 @@ public class MainActivity extends AppCompatActivity {
         // GridView
         Button btnGridView = findViewById(R.id.btn_gridView);
         btnGridView.setOnClickListener(view -> startActivity(GridViewActivity.class));
-        // LinearRecyclerView
-        Button btnLinearRecyclerView = findViewById(R.id.btn_linearRecyclerView);
-        btnLinearRecyclerView.setOnClickListener(view -> startActivity(LinearRecyclerViewActivity.class));
+        // VerticalRecyclerView
+        Button btnVerticalRecyclerView = findViewById(R.id.btn_verticalRecyclerView);
+        btnVerticalRecyclerView.setOnClickListener(view -> startActivity(VerticalRecyclerViewActivity.class));
     }
 
     private void startActivity(Class<? extends Context> cls) {

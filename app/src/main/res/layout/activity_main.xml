@@ -59,10 +59,10 @@
                 android:text="@string/btn_gridView"
                 android:textAllCaps="false"/>
 
-        <Button android:id="@+id/btn_linearRecyclerView"
+        <Button android:id="@+id/btn_verticalRecyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/btn_linearRecyclerView"
+                android:text="@string/btn_verticalRecyclerView"
                 android:textAllCaps="false"/>
 
     </LinearLayout>
