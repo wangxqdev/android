@@ -32,6 +32,17 @@ public class VerticalRecyclerViewAdapter extends RecyclerView.Adapter<VerticalRe
         viewHolder.itemView.setOnClickListener(view -> onClickListener.onClick(i));
     }
 
+    /**
+     * 重写getItemViewType实现不同ViewHolder之间的切换
+     *
+     * @param position
+     * @return
+     */
+    @Override
+    public int getItemViewType(int position) {
+        return super.getItemViewType(position);
+    }
+
     @Override
     public int getItemCount() {
         return 30;

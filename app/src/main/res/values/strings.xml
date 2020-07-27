@@ -38,4 +38,6 @@
     <string name="btn_horizontalRecyclerView">HorizontalRecyclerView</string>
     <string name="btn_gridRecyclerView">GridRecyclerView</string>
     <string name="btn_staggeredRecyclerView">StaggeredRecyclerView</string>
+    <!--WebView-->
+    <string name="btn_webView">WebView</string>
 </resources>

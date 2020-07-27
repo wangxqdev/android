@@ -37,6 +37,7 @@
         <activity android:name=".view.recycler.HorizontalRecyclerViewActivity"/>
         <activity android:name=".view.recycler.GridRecyclerViewActivity"/>
         <activity android:name=".view.recycler.StaggeredRecyclerViewActivity"/>
+        <activity android:name=".view.WebViewActivity"/>
     </application>
 
 </manifest>

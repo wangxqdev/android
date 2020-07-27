@@ -55,6 +55,9 @@ public class MainActivity extends AppCompatActivity {
         // StaggeredRecyclerView
         Button btnStaggeredRecyclerView = findViewById(R.id.btn_staggeredRecyclerView);
         btnStaggeredRecyclerView.setOnClickListener(view -> startActivity(StaggeredRecyclerViewActivity.class));
+        // WebView
+        Button btnWebView = findViewById(R.id.btn_webView);
+        btnWebView.setOnClickListener(view -> startActivity(WebViewActivity.class));
     }
 
     private void startActivity(Class<? extends Context> cls) {
