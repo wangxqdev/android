@@ -34,6 +34,7 @@
         <activity android:name=".view.list.ListViewActivity"/>
         <activity android:name=".view.grid.GridViewActivity"/>
         <activity android:name=".view.recycler.VerticalRecyclerViewActivity"/>
+        <activity android:name=".view.recycler.HorizontalRecyclerViewActivity"/>
     </application>
 
 </manifest>

@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.tec.anji.view.*;
 import com.tec.anji.view.grid.GridViewActivity;
 import com.tec.anji.view.list.ListViewActivity;
+import com.tec.anji.view.recycler.HorizontalRecyclerViewActivity;
 import com.tec.anji.view.recycler.VerticalRecyclerViewActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -43,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
         // VerticalRecyclerView
         Button btnVerticalRecyclerView = findViewById(R.id.btn_verticalRecyclerView);
         btnVerticalRecyclerView.setOnClickListener(view -> startActivity(VerticalRecyclerViewActivity.class));
+        // HorizontalRecyclerView
+        Button btnHorizontalRecyclerView = findViewById(R.id.btn_horizontalRecyclerView);
+        btnHorizontalRecyclerView.setOnClickListener(view -> startActivity(HorizontalRecyclerViewActivity.class));
     }
 
     private void startActivity(Class<? extends Context> cls) {

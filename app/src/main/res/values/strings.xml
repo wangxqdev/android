@@ -35,4 +35,5 @@
     <string name="tv_flower">花</string>
     <!--RecyclerView-->
     <string name="btn_verticalRecyclerView">VerticalRecyclerView</string>
+    <string name="btn_horizontalRecyclerView">HorizontalRecyclerView</string>
 </resources>
