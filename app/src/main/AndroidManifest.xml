@@ -40,6 +40,8 @@
         <activity android:name=".view.WebViewActivity"/>
         <activity android:name=".view.ToastActivity"/>
         <activity android:name=".view.DialogActivity"/>
+        <activity android:name=".fragment.FragmentActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -117,6 +117,13 @@
                 android:text="@string/btn_dialog"
                 android:textAllCaps="false"/>
 
+        <Button
+                android:id="@+id/btn_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_fragment"
+                android:textAllCaps="false"/>
+
     </LinearLayout>
 
 </ScrollView>

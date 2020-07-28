@@ -52,4 +52,11 @@
     <string name="btn_dialog_3">单选2</string>
     <string name="btn_dialog_4">多选</string>
     <string name="btn_dialog_5">自定义</string>
+    <!--Fragment-->
+    <string name="btn_fragment">Fragment</string>
+    <string name="btn_message">传递消息</string>
+    <string name="btn_change_b">切换BFragment</string>
+    <string name="btn_change_tv">替换文本</string>
+    <string name="tv_frag_a">我是AFragment</string>
+    <string name="tv_frag_b">我是BFragment</string>
 </resources>

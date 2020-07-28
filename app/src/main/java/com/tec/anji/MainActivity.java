@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
+import com.tec.anji.fragment.FragmentActivity;
 import com.tec.anji.view.*;
 import com.tec.anji.view.grid.GridViewActivity;
 import com.tec.anji.view.list.ListViewActivity;
@@ -64,6 +65,9 @@ public class MainActivity extends AppCompatActivity {
         // AlertDialog
         Button btnDialog = findViewById(R.id.btn_dialog);
         btnDialog.setOnClickListener(view -> startActivity(DialogActivity.class));
+        // Fragment
+        Button btnFragment = findViewById(R.id.btn_fragment);
+        btnFragment.setOnClickListener(view -> startActivity(FragmentActivity.class));
     }
 
     private void startActivity(Class<? extends Context> cls) {
