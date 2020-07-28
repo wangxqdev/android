@@ -6,93 +6,115 @@
             android:layout_height="match_parent"
             tools:context=".MainActivity">
 
-    <LinearLayout android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:orientation="vertical"
-                  android:padding="10dp">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
 
-        <Button android:id="@+id/btn_textView"
+        <Button
+                android:id="@+id/btn_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_textView"
                 android:textAllCaps="false"/>
 
-        <Button android:id="@+id/btn_button"
+        <Button
+                android:id="@+id/btn_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_button"
                 android:textAllCaps="false"/>
 
-        <Button android:id="@+id/btn_editText"
+        <Button
+                android:id="@+id/btn_editText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_editText"
                 android:textAllCaps="false"/>
 
-        <Button android:id="@+id/btn_radioButton"
+        <Button
+                android:id="@+id/btn_radioButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_radioButton"
                 android:textAllCaps="false"/>
 
-        <Button android:id="@+id/btn_checkBox"
+        <Button
+                android:id="@+id/btn_checkBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_checkBox"
                 android:textAllCaps="false"/>
 
-        <Button android:id="@+id/btn_imageView"
+        <Button
+                android:id="@+id/btn_imageView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_imageView"
                 android:textAllCaps="false"/>
 
-        <Button android:id="@+id/btn_listView"
+        <Button
+                android:id="@+id/btn_listView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_listView"
                 android:textAllCaps="false"/>
 
-        <Button android:id="@+id/btn_gridView"
+        <Button
+                android:id="@+id/btn_gridView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_gridView"
                 android:textAllCaps="false"/>
 
-        <Button android:id="@+id/btn_verticalRecyclerView"
+        <Button
+                android:id="@+id/btn_verticalRecyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_verticalRecyclerView"
                 android:textAllCaps="false"/>
 
-        <Button android:id="@+id/btn_horizontalRecyclerView"
+        <Button
+                android:id="@+id/btn_horizontalRecyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_horizontalRecyclerView"
                 android:textAllCaps="false"/>
 
-        <Button android:id="@+id/btn_gridRecyclerView"
+        <Button
+                android:id="@+id/btn_gridRecyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_gridRecyclerView"
                 android:textAllCaps="false"/>
 
-        <Button android:id="@+id/btn_staggeredRecyclerView"
+        <Button
+                android:id="@+id/btn_staggeredRecyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_staggeredRecyclerView"
                 android:textAllCaps="false"/>
 
-        <Button android:id="@+id/btn_webView"
+        <Button
+                android:id="@+id/btn_webView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_webView"
                 android:textAllCaps="false"/>
 
-        <Button android:id="@+id/btn_toast"
+        <Button
+                android:id="@+id/btn_toast"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_toast"
+                android:textAllCaps="false"/>
+
+        <Button
+                android:id="@+id/btn_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_dialog"
                 android:textAllCaps="false"/>
 
     </LinearLayout>

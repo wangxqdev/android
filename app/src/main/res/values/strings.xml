@@ -45,4 +45,11 @@
     <string name="btn_toast_1">默认</string>
     <string name="btn_toast_2">改变位置</string>
     <string name="btn_toast_3">自定义</string>
+    <!--AlertDialog-->
+    <string name="btn_dialog">Dialog</string>
+    <string name="btn_dialog_1">默认</string>
+    <string name="btn_dialog_2">单选1</string>
+    <string name="btn_dialog_3">单选2</string>
+    <string name="btn_dialog_4">多选</string>
+    <string name="btn_dialog_5">自定义</string>
 </resources>

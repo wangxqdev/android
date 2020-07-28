@@ -61,6 +61,9 @@ public class MainActivity extends AppCompatActivity {
         // Toast
         Button btnToast = findViewById(R.id.btn_toast);
         btnToast.setOnClickListener(view -> startActivity(ToastActivity.class));
+        // AlertDialog
+        Button btnDialog = findViewById(R.id.btn_dialog);
+        btnDialog.setOnClickListener(view -> startActivity(DialogActivity.class));
     }
 
     private void startActivity(Class<? extends Context> cls) {
