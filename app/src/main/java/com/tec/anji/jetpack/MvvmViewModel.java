@@ -20,9 +20,10 @@ public class MvvmViewModel extends ViewModel {
 
     public Integer addLikedNumber(int n) {
         if (null == likedNumber) {
-            return -1;
+            return 0;
         }
-        likedNumber.setValue(likedNumber.getValue() + n);
+        int value = likedNumber.getValue();
+        likedNumber.setValue(0 >= n && 0 == value ? 0 : value + n);
 
         return likedNumber.getValue();
     }
