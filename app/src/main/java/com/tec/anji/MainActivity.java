@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import com.tec.anji.fragment.FragmentActivity;
+import com.tec.anji.jetpack.view.MvvmActivity;
 import com.tec.anji.view.*;
 import com.tec.anji.view.grid.GridViewActivity;
 import com.tec.anji.view.list.ListViewActivity;
@@ -68,6 +69,9 @@ public class MainActivity extends AppCompatActivity {
         // Fragment
         Button btnFragment = findViewById(R.id.btn_fragment);
         btnFragment.setOnClickListener(view -> startActivity(FragmentActivity.class));
+        // Jetpack
+        Button btnJetpack = findViewById(R.id.btn_mvvm);
+        btnJetpack.setOnClickListener(view -> startActivity(MvvmActivity.class));
     }
 
     private void startActivity(Class<? extends Context> cls) {
