@@ -61,6 +61,6 @@
     <string name="tv_frag_b">我是BFragment</string>
     <!--Jetpack-->
     <string name="btn_mvvm">MVVM</string>
-    <string name="btn_plus_one">+1</string>
-    <string name="btn_plus_two">+2</string>
+    <string name="btn_like">Like</string>
+    <string name="btn_dislike">Dislike</string>
 </resources>

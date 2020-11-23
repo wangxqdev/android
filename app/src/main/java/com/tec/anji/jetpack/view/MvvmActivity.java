@@ -1,7 +1,7 @@
 package com.tec.anji.jetpack.view;
 
 import android.os.Bundle;
-import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,12 +12,6 @@ import com.tec.anji.jetpack.MvvmViewModel;
 
 public class MvvmActivity extends AppCompatActivity {
 
-    private TextView textView;
-
-    private Button button;
-
-    private Button button2;
-
     private MvvmViewModel mvvmViewModel;
 
     @Override
@@ -25,21 +19,15 @@ public class MvvmActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mvvm);
 
-        textView = findViewById(R.id.textView);
-        button = findViewById(R.id.button);
-        button2 = findViewById(R.id.button2);
+        TextView textView = findViewById(R.id.tv_1);
+        ImageButton btnLike = findViewById(R.id.ib_like);
+        ImageButton btnDislike = findViewById(R.id.ib_dislike);
 
         mvvmViewModel = new ViewModelProvider(this).get(MvvmViewModel.class);
-        textView.setText(String.valueOf(mvvmViewModel.getNumber()));
+        mvvmViewModel.getLikedNumber().observe(this, t -> textView.setText(String.valueOf(t)));
 
-        button.setOnClickListener(view -> {
-            mvvmViewModel.add(1);
-            textView.setText(String.valueOf(mvvmViewModel.getNumber()));
-        });
+        btnLike.setOnClickListener(view -> mvvmViewModel.addLikedNumber(1));
 
-        button2.setOnClickListener(view -> {
-            mvvmViewModel.add(2);
-            textView.setText(String.valueOf(mvvmViewModel.getNumber()));
-        });
+        btnDislike.setOnClickListener(view -> mvvmViewModel.addLikedNumber(-1));
     }
 }
